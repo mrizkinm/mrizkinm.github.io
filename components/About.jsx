@@ -2,6 +2,7 @@ import React from 'react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs'
 import { User2, MailIcon, HomeIcon, PhoneCall, GraduationCap, Calendar, Briefcase, University } from 'lucide-react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const info = [
   {
@@ -10,7 +11,7 @@ const info = [
   },
   {
     icon: <MailIcon size={20} />,
-    text: 'muhammadrizkinur37@gmail.com'
+    text: <Link href="mailto:muhammadrizkinur37@gmail.com" target="_blank">muhammadrizkinur37@gmail.com</Link>
   },
   {
     icon: <Calendar size={20} />,
@@ -18,11 +19,11 @@ const info = [
   },
   {
     icon: <GraduationCap size={20} />,
-    text: 'Universitas Bhayangkara Surabaya'
+    text: 'Bachelor of Information Technology, Universitas Bhayangkara Surabaya'
   },
   {
     icon: <HomeIcon size={20} />,
-    text: 'Surabaya'
+    text: 'Surabaya, Jawa Timur'
   },
 ];
 
@@ -31,8 +32,8 @@ const experiences = [
     company: 'PT Otak Kiri Kanan',
     role: 'Web Programmer',
     years: 'Sep 2023 - Now',
-    description: 'Develop City Cargo applications, build customer service with chat AI using Telegram Bot and Gemini API',
-    type: 'Part Time'
+    description: 'Develop City Cargo web and Telegram Bot App',
+    type: 'Project'
   },
   {
     company: 'PT Aplikasi Info Koneksi',
