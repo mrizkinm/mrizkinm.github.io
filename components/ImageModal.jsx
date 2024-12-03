@@ -4,6 +4,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/swiper-bundle.css'
 import { Button } from './ui/button'
 import { EyeIcon, XIcon } from 'lucide-react'
+import Image from 'next/image';
 
 const ImageModal = ({images}) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +52,7 @@ const ImageModal = ({images}) => {
             >
               {images.map((image, index) => (
                 <SwiperSlide key={index}>
-                  <img src={image} alt={`Slide ${index}`} className="w-full h-auto max-h-[80vh] object-contain" />
+                  <Image src={image} alt={`Slide ${index}`} width="500" height="500" className="w-full h-auto max-h-[80vh] object-contain" />
                 </SwiperSlide>
               ))}
             </Swiper>
