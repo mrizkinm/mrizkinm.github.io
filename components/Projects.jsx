@@ -6,10 +6,10 @@ import ProjectCard from './ProjectCard'
 
 const project = [
   {
-    image: ['/img/projects/citycargo.jpg', '/img/projects/admincc.jpg'],
+    image: ['/img/projects/citycargo1.jpg', '/img/projects/citycargo2.jpg'],
     category: ['Codeigniter 4', 'Bootstrap 5'],
     name: 'City Cargo Landing Page',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+    description: 'Build landing page and registration page for City Cargo website',
     link: 'https://citycargo.id',
     github: ''
   },
@@ -17,7 +17,7 @@ const project = [
     image: ['/img/projects/ccbot1.jpg', '/img/projects/ccbot2.jpg'],
     category: ['Codeigniter 4', 'Bootstrap 5'],
     name: 'City Cargo Telegram Bot App',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+    description: 'Build Telegram Bot Application for City Cargo, integrating APIs from several shipping companies such as JNT Cargo, JNT Express and Ninja Xpress into the city cargo application.',
     link: 'https://t.me/CityCargo_bot',
     github: ''
   },
@@ -25,31 +25,31 @@ const project = [
     image: ['/img/projects/admincc.jpg'],
     category: ['Codeigniter 4', 'Bootstrap 5'],
     name: 'City Cargo Admin Page',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+    description: 'Build admin page for City Cargo application',
     link: '',
     github: ''
   },
   {
-    image: ['/img/projects/abisha.jpg'],
+    image: ['/img/projects/abisha1.jpg', '/img/projects/abisha2.jpg'],
     category: ['Codeigniter 4'],
-    name: 'Abisha',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+    name: 'Abisha Business Opportunity',
+    description: 'Build landing page and registration page for Abisha Business Opportunity website',
     link: 'https://abisha.id',
     github: ''
   },
   {
     image: ['/img/projects/mmsi.jpg'],
     category: ['Codeigniter 4'],
-    name: 'MMSI Landing Page',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+    name: 'Koperasi Maju Makmur Sejahtera Indonesia',
+    description: 'Build company profile for Koperasi Maju Makmur Sejahtera Indonesia website',
     link: 'https://mms.id',
     github: ''
   },
   {
     image: ['/img/projects/adminmmsi.jpg'],
     category: ['Laravel 11'],
-    name: 'MMSI Admin Page',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+    name: 'Koperasi Maju Makmur Sejahtera Indonesia Admin Page',
+    description: 'Build admin page for Koperasi Maju Makmur Sejahtera Indonesia',
     link: '',
     github: ''
   },
@@ -57,7 +57,7 @@ const project = [
     image: ['/img/projects/pantaucorona.jpg'],
     category: ['Flutter'],
     name: 'Pantau Corona',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+    description: 'An application to monitor corona virus patient data in Indonesia and the world',
     link: '',
     github: 'https://github.com/mrizkinm/pantaucorona'
   },
@@ -65,12 +65,12 @@ const project = [
     image: ['/img/projects/laporcepat1.jpg', '/img/projects/laporcepat2.jpg', '/img/projects/laporcepat3.jpg'],
     category: ['Flutter', 'Firebase'],
     name: 'Lapor Cepat',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+    description: 'Application to report a criminal incident to the police to be dealt with quickly',
     link: '',
     github: 'https://github.com/mrizkinm/laporcepat'
   },
   {
-    image: ['/img/projects/adminmmsi.jpg'],
+    image: ['/img/projects/prediksi1.png', '/img/projects/prediksi2.png', '/img/projects/prediksi3.png'],
     category: ['Django', 'MySQL'],
     name: 'Food price prediction application uses ARIMA method',
     description: 'Food price prediction application for basic needs uses the ARIMA (Autoregressive Integrated Moving Average) method with the django python framework',
@@ -78,7 +78,7 @@ const project = [
     github: 'https://github.com/mrizkinm/prediksi'
   },
   {
-    image: ['/img/projects/adminmmsi.jpg'],
+    image: ['/img/projects/sawkasir1.jpg', '/img/projects/sawkasir2.jpg', '/img/projects/sawkasir3.jpg'],
     category: ['Codeigniter 3', 'MySQL'],
     name: 'SPK SAW method for selecting cashier employees',
     description: 'SPK SAW method for selecting cashier employees',
@@ -108,9 +108,9 @@ const Projects = () => {
       <div className="max-w-[1240px] px-5 mx-auto">
         <h2 className="text-4xl font-bold mb-8 xl:mb-16 text-center mx-auto">Projects</h2>
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          <TabsList className="w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
+          <TabsList className="w-full grid h-full grid-cols-2 md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
             {categoryList.map((item, index) => (
-              <TabsTrigger onClick={() => setCategory(item)} value={item} key={index} className="capitalize w-[162px] md:w-auto">{item}</TabsTrigger>
+              <TabsTrigger onClick={() => setCategory(item)} value={item} key={index} className="capitalize w-auto">{item}</TabsTrigger>
             ))}
           </TabsList>
           <div className="text-lg xl:mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
