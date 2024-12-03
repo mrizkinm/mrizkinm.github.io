@@ -65,7 +65,7 @@ const project = [
     image: ['/img/projects/laporcepat1.jpg', '/img/projects/laporcepat2.jpg', '/img/projects/laporcepat3.jpg'],
     category: ['Flutter', 'Firebase'],
     name: 'Lapor Cepat',
-    description: 'Application to report a criminal incident to the police to be dealt with quickly',
+    description: 'An application to report a criminal incident to the police to be dealt with quickly',
     link: '',
     github: 'https://github.com/mrizkinm/laporcepat'
   },
