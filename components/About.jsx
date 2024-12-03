@@ -66,7 +66,7 @@ const educations = [
 
 const About = () => {
   return (
-    <section id="about" className="pb-20 xl:py-24">
+    <section id="about" className="py-20">
       <div className="max-w-[1240px] px-5 mx-auto">
         <h2 className="text-4xl font-bold mb-8 xl:mb-16 text-center mx-auto">About Me</h2>
         <div className="flex flex-col xl:flex-row">
@@ -89,7 +89,7 @@ const About = () => {
               <div className="text-lg mt-8">
                 <TabsContent value="personal">
                   <div>
-                    <h3 className="h3 mb-8">Hello, I'am Muhammad Rizki! 👋</h3>
+                    <h3 className="h3 mb-8">Hello, I&apos;am Muhammad Rizki! 👋</h3>
                     <p className="subtitle text-justify">I’am a Full Stack Developer who enjoys building websites and Android mobile applications. I graduated from Universitas Bhayangkara Surabaya in 2023. I work on both the frontend and the backend. This means I can help you with everything from designing a clean, modern website to setting up the system that powers it.</p>
                     <p className="subtitle text-justify">I love working with people to bring their ideas to life. If you need a website or web app, let’s chat and create something awesome together!</p>
                     <div className="grid gap-4 mb-12">

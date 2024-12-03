@@ -98,13 +98,8 @@ const Projects = () => {
       : item.category.includes(category);
   });
 
-  useEffect(() => {
-    console.log(category);
-    console.log(filteredProjects);
-  })
-
   return (
-    <section id="projects" className="pb-20 xl:py-24">
+    <section id="projects" className="py-20">
       <div className="max-w-[1240px] px-5 mx-auto">
         <h2 className="text-4xl font-bold mb-8 xl:mb-16 text-center mx-auto">Projects</h2>
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
