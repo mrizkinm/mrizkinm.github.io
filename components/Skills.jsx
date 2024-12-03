@@ -43,6 +43,14 @@ const skill = [
     'image': '/img/skills/tailwind.png'
   },
   {
+    'name': 'CSS',
+    'image': '/img/skills/css.png'
+  },
+  {
+    'name': 'HTML',
+    'image': '/img/skills/html.png'
+  },
+  {
     'name': 'Django',
     'image': '/img/skills/django.png'
   },
@@ -51,18 +59,26 @@ const skill = [
     'image': '/img/skills/mysql.png'
   },
   {
+    'name': 'Firebase',
+    'image': '/img/skills/firebase.png'
+  },
+  {
     'name': 'Apache',
     'image': '/img/skills/apache.png'
+  },
+  {
+    'name': 'GitHub',
+    'image': '/img/skills/github.png'
   }
 ]
 const Skills = () => {
   return (
-    <section id="skills" className="pb-12 xl:py-24 mt-8">
+    <section id="skills" className="pb-20 xl:py-24">
       <div className="max-w-[1240px] px-5 mx-auto">
         <h2 className="text-4xl font-bold mb-8 xl:mb-16 text-center mx-auto">Skills</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
           {skill.map((item, index) => (
-            <div className="p-6 shadow-sm bg-blue-50 dark:bg-slate-800 rounded-xl hover:scale-105 ease-in duration-300" key={index}>
+            <div className="flex justify-center p-6 h-[160px] shadow-sm bg-blue-50 dark:bg-slate-800 rounded-xl hover:scale-105 ease-in duration-300" key={index}>
               <div className="flex flex-col gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image src={item.image} alt="Image" width="64" height="64" />
