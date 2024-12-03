@@ -71,7 +71,7 @@ const About = () => {
         <h2 className="text-4xl font-bold mb-8 xl:mb-16 text-center mx-auto">About Me</h2>
         <div className="flex flex-col xl:flex-row">
           <div className="flex flex-1 justify-center items-center p-5">
-            <Image src="/img/logo.png" width="400" height="400" alt="Image" />
+            <Image src="/img/me.jpg" className="rounded-lg" width="400" height="400" alt="Image" />
           </div>
           <div className="flex-1">
             <Tabs defaultValue="personal">
