@@ -27,7 +27,7 @@ const ImageModal = ({images}) => {
 
   return (
     <div>
-      <Button onClick={openModal} className="bg-slate-700 w-[45px] h-[45px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200 hover:bg-slate-700">
+      <Button onClick={openModal} title="View" className="bg-slate-700 w-[45px] h-[45px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200 hover:bg-slate-700">
         <EyeIcon className="text-white" />
       </Button>
       {isOpen && (
