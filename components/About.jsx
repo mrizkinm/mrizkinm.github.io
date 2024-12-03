@@ -23,7 +23,7 @@ const info = [
   },
   {
     icon: <HomeIcon size={20} />,
-    text: 'Surabaya, Jawa Timur'
+    text: 'Surabaya, Jawa Timur, Indonesia'
   },
 ];
 
@@ -66,7 +66,7 @@ const educations = [
 
 const About = () => {
   return (
-    <section id="about" className="pb-12 xl:py-24 mt-8">
+    <section id="about" className="pb-20 xl:py-24">
       <div className="max-w-[1240px] px-5 mx-auto">
         <h2 className="text-4xl font-bold mb-8 xl:mb-16 text-center mx-auto">About Me</h2>
         <div className="flex flex-col xl:flex-row">
