@@ -11,10 +11,10 @@ const Info = () => {
         <div className="flex justify-between">
           <div className="flex max-w-[700px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-widest">
-              Let's Work Together
+              Let&apos;s Work Together
             </div>
-            <h1 className="h1 mb-4">Hello, I'am Muhammad Rizki! 👋</h1>
-            <p className="subtitle max-w-[500px] mx-auto xl:mx-0">I'am a Full Stack Developer specializing in building both frontend and backend web applications, as well as Android mobile applications</p>
+            <h1 className="h1 mb-4">Hello, I&apos;am Muhammad Rizki! 👋</h1>
+            <p className="subtitle max-w-[500px] mx-auto xl:mx-0">I&apos;am a Full Stack Developer specializing in building both frontend and backend web applications, as well as Android mobile applications</p>
             <div className="mx-auto xl:mx-0">
               <Socials />
             </div>
