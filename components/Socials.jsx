@@ -1,11 +1,10 @@
-import Link from 'next/link'
 import React from 'react'
-import { RiLinkedinFill, RiGithubFill, RiMailFill, RiInstagramFill } from 'react-icons/ri'
+import { RiLinkedinBoxFill, RiMailLine, RiInstagramLine, RiGithubFill } from 'react-icons/ri'
 
 const icons = [
   {
     path: 'https://www.linkedin.com/in/muhammad-rizki-0998/',
-    icon: <RiLinkedinFill />,
+    icon: <RiLinkedinBoxFill />,
     title: 'LinkedIn'
   },
   {
@@ -15,12 +14,12 @@ const icons = [
   },
   {
     path: 'mailto:muhammadrizkinur37@gmail.com',
-    icon: <RiMailFill />,
+    icon: <RiMailLine />,
     title: 'Email'
   },
   {
     path: 'https://instagram.com/mrizkinm/',
-    icon: <RiInstagramFill />,
+    icon: <RiInstagramLine />,
     title: 'Instagram'
   },
 ];
