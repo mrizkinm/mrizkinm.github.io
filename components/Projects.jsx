@@ -54,6 +54,14 @@ const project = [
     github: ''
   },
   {
+    image: ['/img/projects/react-port1.jpg', '/img/projects/react-port2.jpg', '/img/projects/react-port3.jpg'],
+    category: ['React', 'Tailwind'],
+    name: 'Portfolio React + Tailwind',
+    description: 'Portfolio website with react, tailwind and vite',
+    link: '',
+    github: 'https://github.com/mrizkinm/react-tailwind-portfolio'
+  },
+  {
     image: ['/img/projects/pantaucorona.jpg'],
     category: ['Flutter'],
     name: 'Pantau Corona',
