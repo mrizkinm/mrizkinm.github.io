@@ -76,7 +76,7 @@ const Skills = () => {
     <section id="skills" className="py-20">
       <div className="max-w-[1240px] px-5 mx-auto">
         <h2 className="text-4xl font-bold mb-8 xl:mb-16 text-center mx-auto">Skills</h2>
-        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {skill.map((item, index) => (
             <div className="flex justify-center p-6 h-[160px] shadow-sm bg-blue-50 dark:bg-slate-800 rounded-xl hover:scale-105 ease-in duration-300" key={index}>
               <div className="flex flex-col gap-4 justify-center items-center">

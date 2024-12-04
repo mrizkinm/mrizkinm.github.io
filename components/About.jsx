@@ -90,7 +90,7 @@ const About = () => {
                 <TabsContent value="personal">
                   <div>
                     <h3 className="h3 mb-8">Hello, I&apos;am Muhammad Rizki! 👋</h3>
-                    <p className="subtitle text-justify">I’am a Full Stack Developer who enjoys building websites and Android mobile applications. I graduated from Universitas Bhayangkara Surabaya in 2023. I work on both the frontend and the backend. This means I can help you with everything from designing a clean, modern website to setting up the system that powers it.</p>
+                    <p className="subtitle text-justify">I&apos;am a Full Stack Developer who enjoys building websites and Android mobile applications. I graduated from Universitas Bhayangkara Surabaya in 2023. I work on both the frontend and the backend. This means I can help you with everything from designing a clean, modern website to setting up the system that powers it.</p>
                     <p className="subtitle text-justify">I love working with people to bring their ideas to life. If you need a website or web app, let’s chat and create something awesome together!</p>
                     <div className="grid gap-4 mb-12">
                       {info.map((item, index) => (
