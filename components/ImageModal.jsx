@@ -33,11 +33,11 @@ const ImageModal = ({images}) => {
       </Button>
       {isOpen && (
         <div id="modal-backdrop" onClick={handleBackdropClick} className={`fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 transition-opacity duration-300 ease-in-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-          <div onClick={(e) => e.stopPropagation()} className="rounded-lg w-[90%] p-10 relative transition-all duration-300 transform">
+          <div onClick={(e) => e.stopPropagation()} className="rounded-lg w-[90%] pt-12 relative transition-all duration-300 transform">
             {/* Tombol Close */}
             <button 
               onClick={closeModal} 
-              className="absolute top-2 right-2 rounded-full cursor-pointer p-1 hover:scale-105 ease-in duration-300 border border-gray-300 dark:border-accent bg-gray-50 dark:bg-accent hover:bg-gray-100 dark:hover:bg-accent"
+              className="absolute top-0 right-0 rounded-full cursor-pointer p-1 hover:scale-105 ease-in duration-300 border border-gray-300 dark:border-accent bg-gray-50 dark:bg-accent hover:bg-gray-100 dark:hover:bg-accent"
             >
               <XIcon />
             </button>
