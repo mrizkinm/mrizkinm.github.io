@@ -88,8 +88,8 @@ const project = [
   {
     image: ['/img/projects/sawkasir1.jpg', '/img/projects/sawkasir2.jpg', '/img/projects/sawkasir3.jpg'],
     category: ['Codeigniter 3', 'MySQL'],
-    name: 'SPK SAW method for selecting cashier employees',
-    description: 'SPK SAW method for selecting cashier employees',
+    name: 'Decision Support System with SAW method for selecting cashier employees',
+    description: 'Decision Support System with SAW (Simple Additive Weighting) method for selecting cashier employees',
     link: '',
     github: 'https://github.com/mrizkinm/spksawkasir'
   }
