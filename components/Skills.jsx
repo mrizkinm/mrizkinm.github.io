@@ -67,8 +67,8 @@ const skill = [
     'image': '/img/skills/apache.png'
   },
   {
-    'name': 'GitHub',
-    'image': '/img/skills/github.png'
+    'name': 'Git',
+    'image': '/img/skills/git.png'
   }
 ]
 const Skills = () => {
