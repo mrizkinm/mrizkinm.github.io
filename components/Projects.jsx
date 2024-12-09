@@ -1,13 +1,13 @@
 "use client"
 
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Tabs, TabsList, TabsContent, TabsTrigger } from '@/components/ui/tabs'
 import ProjectCard from './ProjectCard'
 
 const project = [
   {
     image: ['/img/projects/citycargo1.jpg', '/img/projects/citycargo2.jpg'],
-    category: ['Codeigniter 4', 'Bootstrap 5'],
+    category: ['Codeigniter', 'Bootstrap'],
     name: 'City Cargo Landing Page',
     description: 'Build landing page and registration page for City Cargo website',
     link: 'https://citycargo.id',
@@ -15,7 +15,7 @@ const project = [
   },
   {
     image: ['/img/projects/ccbot1.jpg', '/img/projects/ccbot2.jpg'],
-    category: ['Codeigniter 4', 'Bootstrap 5'],
+    category: ['Codeigniter', 'Bootstrap'],
     name: 'City Cargo Telegram Bot App',
     description: 'Build Telegram Bot Application for City Cargo, integrating APIs from several shipping companies such as JNT Cargo, JNT Express and Ninja Xpress into the city cargo application.',
     link: 'https://t.me/CityCargo_bot',
@@ -23,7 +23,7 @@ const project = [
   },
   {
     image: ['/img/projects/admincc.jpg'],
-    category: ['Codeigniter 4', 'Bootstrap 5'],
+    category: ['Codeigniter', 'Bootstrap'],
     name: 'City Cargo Admin Page',
     description: 'Build admin page for City Cargo application',
     link: '',
@@ -31,7 +31,7 @@ const project = [
   },
   {
     image: ['/img/projects/abisha1.jpg', '/img/projects/abisha2.jpg'],
-    category: ['Codeigniter 4'],
+    category: ['Codeigniter'],
     name: 'Abisha Business Opportunity',
     description: 'Build landing page and registration page for Abisha Business Opportunity website',
     link: 'https://abisha.id',
@@ -39,7 +39,7 @@ const project = [
   },
   {
     image: ['/img/projects/mmsi.jpg'],
-    category: ['Codeigniter 4'],
+    category: ['Codeigniter'],
     name: 'Koperasi Maju Makmur Sejahtera Indonesia',
     description: 'Build company profile for Koperasi Maju Makmur Sejahtera Indonesia website',
     link: 'https://mms.id',
@@ -47,7 +47,7 @@ const project = [
   },
   {
     image: ['/img/projects/adminmmsi.jpg'],
-    category: ['Laravel 11'],
+    category: ['Laravel'],
     name: 'Koperasi Maju Makmur Sejahtera Indonesia Admin Page',
     description: 'Build admin page for Koperasi Maju Makmur Sejahtera Indonesia',
     link: '',
@@ -87,7 +87,7 @@ const project = [
   },
   {
     image: ['/img/projects/sawkasir1.jpg', '/img/projects/sawkasir2.jpg', '/img/projects/sawkasir3.jpg'],
-    category: ['Codeigniter 3', 'MySQL'],
+    category: ['Codeigniter', 'MySQL'],
     name: 'Decision Support System with SAW method for selecting cashier employees',
     description: 'Decision Support System with SAW (Simple Additive Weighting) method for selecting cashier employees',
     link: '',
