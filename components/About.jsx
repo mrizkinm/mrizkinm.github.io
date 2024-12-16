@@ -91,7 +91,7 @@ const About = () => {
                   <div>
                     <h3 className="h3 mb-8">Hello, I&apos;am Muhammad Rizki! 👋</h3>
                     <p className="subtitle text-justify">I&apos;am an experienced Full Stack Developer with more than 7 years in the software development industry. Graduating from SMK Negeri 1 Surabaya majoring in Software Engineering in 2017, I continued my education at Bhayangkara University Surabaya starting in 2018 while working, and successfully earned a bachelor&apos;s degree with a major in Informatics Engineering in 2023.</p>
-                    <p className="subtitle text-justify">With expertise in frontend and backend, I&apos;am able to develop modern, intuitive websites, as well as develop efficient support systems. In addition, I also have experience in building Android mobile apps, providing end-to-end solutions for web and mobile-based projects.</p>
+                    <p className="subtitle text-justify">With expertise in both frontend and backend development, I&apos;am proficient in various technologies and frameworks, including Laravel, CodeIgniter, Next.js, React, and Flutter. I&apos;am capable of developing modern, intuitive websites and building efficient support systems. Additionally, I have experience in developing Android mobile applications, providing end-to-end solutions for both web and mobile-based projects.</p>
                     <p className="subtitle text-justify">I love working with people to bring their ideas to life. If you need a website or Android app, let&apos;s connect and create something amazing together!.</p>
                     <div className="grid gap-4 mb-12">
                       {info.map((item, index) => (
