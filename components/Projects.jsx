@@ -63,7 +63,7 @@ const project = [
   },
   {
     image: ['/img/projects/shop1.jpg', '/img/projects/shop2.jpg', '/img/projects/shop3.jpg', '/img/projects/shop4.jpg', '/img/projects/shop5.jpg', '/img/projects/shop6.jpg', '/img/projects/shop7.jpg', '/img/projects/shop8.jpg'],
-    category: ['React', 'Tailwind', 'Next.js'],
+    category: ['React', 'Tailwind', 'Next.js', 'MySQL'],
     name: 'Online Shop Admin Page',
     description: 'Online shop admin page with next.js, react and tailwind',
     link: '',
