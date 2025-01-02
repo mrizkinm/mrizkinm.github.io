@@ -54,7 +54,7 @@ const experiences = [
 const educations = [
   {
     'university': 'Universitas Bhayangkara Surabaya',
-    'qualification': 'Information Technology',
+    'qualification': 'Informatics Engineering',
     'years': 'Sep 2018 - Nov 2023'
   },
   {

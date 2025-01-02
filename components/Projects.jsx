@@ -47,7 +47,7 @@ const project = [
   },
   {
     image: ['/img/projects/adminmmsi.jpg'],
-    category: ['Laravel'],
+    category: ['Laravel', 'Bootstrap'],
     name: 'Koperasi Maju Makmur Sejahtera Indonesia Admin Page',
     description: 'Build admin page for Koperasi Maju Makmur Sejahtera Indonesia',
     link: '',
@@ -60,6 +60,14 @@ const project = [
     description: 'Portfolio website with react, tailwind and vite',
     link: '',
     github: 'https://github.com/mrizkinm/react-tailwind-portfolio'
+  },
+  {
+    image: ['/img/projects/shop1.jpg', '/img/projects/shop2.jpg', '/img/projects/shop3.jpg', '/img/projects/shop4.jpg', '/img/projects/shop5.jpg', '/img/projects/shop6.jpg', '/img/projects/shop7.jpg', '/img/projects/shop8.jpg'],
+    category: ['React', 'Tailwind', 'Next.js'],
+    name: 'Online Shop Admin Page',
+    description: 'Online shop admin page with next.js, react and tailwind',
+    link: '',
+    github: 'https://github.com/mrizkinm/next-admin-shop'
   },
   {
     image: ['/img/projects/pantaucorona.jpg'],
@@ -79,7 +87,7 @@ const project = [
   },
   {
     image: ['/img/projects/prediksi1.png', '/img/projects/prediksi2.png', '/img/projects/prediksi3.png'],
-    category: ['Django', 'MySQL'],
+    category: ['Django', 'MySQL', 'Bootstrap'],
     name: 'Food price prediction application uses ARIMA method',
     description: 'Food price prediction application for basic needs uses the ARIMA (Autoregressive Integrated Moving Average) method with the django python framework',
     link: '',
@@ -87,7 +95,7 @@ const project = [
   },
   {
     image: ['/img/projects/sawkasir1.jpg', '/img/projects/sawkasir2.jpg', '/img/projects/sawkasir3.jpg'],
-    category: ['Codeigniter', 'MySQL'],
+    category: ['Codeigniter', 'MySQL', 'Bootstrap'],
     name: 'Decision Support System with SAW method for selecting cashier employees',
     description: 'Decision Support System with SAW (Simple Additive Weighting) method for selecting cashier employees',
     link: '',
