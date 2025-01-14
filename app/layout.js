@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import { pageview } from "@/lib/gtag";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
+import Script from "next/script";
 
 const outfit = Outfit({
   subsets: ['latin'],
@@ -29,18 +30,16 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <head>
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5N3K0CYY7"></script>
-        <script>
-          dangerouslySetInnerHTML={{
-          __html: `
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-K5N3K0CYY7" />
+        <Script id="google-analytics">
+          {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
             gtag('config', 'G-K5N3K0CYY7');
-          `,
-          }}
-        </script>
+          `}
+        </Script>
       </head>
       <body
         className={`${outfit.className} antialiased`}
