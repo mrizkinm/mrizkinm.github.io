@@ -3,9 +3,6 @@ import { Outfit } from 'next/font/google'
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { pageview } from "@/lib/gtag";
-import { usePathname } from "next/navigation";
-import { useEffect } from "react";
 import Script from "next/script";
 
 const outfit = Outfit({
@@ -18,14 +15,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const pathname = usePathname();
-
-  useEffect(() => {
-    if (typeof window !== 'undefined' && window.gtag) {
-        pageview(pathname);
-    }
-  }, [pathname]);
-
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
