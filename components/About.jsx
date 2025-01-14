@@ -19,7 +19,7 @@ const info = [
   },
   {
     icon: <GraduationCap size={20} />,
-    text: 'Bachelor of Information Technology, Universitas Bhayangkara Surabaya'
+    text: 'Bachelor of Informatics Engineering, Universitas Bhayangkara Surabaya'
   },
   {
     icon: <HomeIcon size={20} />,
