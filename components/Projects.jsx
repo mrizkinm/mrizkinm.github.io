@@ -39,7 +39,7 @@ const project = [
   },
   {
     image: ['/img/projects/mmsi.jpg'],
-    category: ['Codeigniter'],
+    category: ['Laravel'],
     name: 'Koperasi Maju Makmur Sejahtera Indonesia',
     description: 'Build company profile for Koperasi Maju Makmur Sejahtera Indonesia website',
     link: 'https://mms.id',
