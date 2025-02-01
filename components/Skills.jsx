@@ -27,6 +27,10 @@ const skill = [
     'image': '/img/skills/js.png'
   },
   {
+    'name': 'Typescript',
+    'image': '/img/skills/typescript.png'
+  },
+  {
     'name': 'jQuery',
     'image': '/img/skills/jquery.png'
   },
