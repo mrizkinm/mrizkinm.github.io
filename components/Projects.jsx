@@ -70,6 +70,14 @@ const project = [
     github: 'https://github.com/mrizkinm/next-admin-shop'
   },
   {
+    image: ['/img/projects/shop-base1.jpg', '/img/projects/shop-base2.jpg', '/img/projects/shop-base3.jpg', '/img/projects/shop-base4.jpg', '/img/projects/shop-base5.jpg', '/img/projects/shop-base6.jpg', '/img/projects/shop-base7.jpg', '/img/projects/shop-base8.jpg'],
+    category: ['Next.js', 'React', 'Tailwind', 'MySQL', 'Midtrans'],
+    name: 'Gundam Base Online Shop Website',
+    description: 'Online shop website with Midtrans payment method',
+    link: '',
+    github: 'https://github.com/mrizkinm/next-online-shop'
+  },
+  {
     image: ['/img/projects/pantaucorona.jpg'],
     category: ['Flutter'],
     name: 'Pantau Corona',
