@@ -15,12 +15,20 @@ const skill = [
     'image': '/img/skills/php.png'
   },
   {
+    'name': 'Node.js',
+    'image': '/img/skills/nodejs.png'
+  },
+  {
     'name': 'Next.js',
     'image': '/img/skills/nextjs.png'
   },
   {
     'name': 'React',
     'image': '/img/skills/react.png'
+  },
+  {
+    'name': 'Express.js',
+    'image': '/img/skills/express-js.png'
   },
   {
     'name': 'Javascript',
