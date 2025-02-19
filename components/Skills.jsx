@@ -38,10 +38,10 @@ const skill = [
     'name': 'Typescript',
     'image': '/img/skills/typescript.png'
   },
-  {
-    'name': 'jQuery',
-    'image': '/img/skills/jquery.png'
-  },
+  // {
+  //   'name': 'jQuery',
+  //   'image': '/img/skills/jquery.png'
+  // },
   {
     'name': 'Flutter',
     'image': '/img/skills/flutter.png'
@@ -69,6 +69,10 @@ const skill = [
   {
     'name': 'MySQL',
     'image': '/img/skills/mysql.png'
+  },
+  {
+    'name': 'PostgreSQL',
+    'image': '/img/skills/postgresql.png'
   },
   {
     'name': 'Firebase',
