@@ -28,7 +28,7 @@ const ProjectCard = ({project}) => {
         </div>
       </CardHeader>
       <div className="h-full px-8 py-6">
-        <div className="flex flex-row gap-1">
+        <div className="flex flex-row gap-1 flex-wrap">
           {project.category.map((item, index) => (
             <Badge className="text-sm font-medium mb-2" key={index}>{item}</Badge>
           ))}
