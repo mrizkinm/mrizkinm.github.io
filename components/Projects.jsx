@@ -78,6 +78,22 @@ const project = [
     github: 'https://github.com/mrizkinm/next-online-shop'
   },
   {
+    image: ['/img/projects/admin-docs1.jpg', '/img/projects/admin-docs2.jpg', '/img/projects/admin-docs3.jpg'],
+    category: ['Express.js', 'Prisma', 'PostgreSQL'],
+    name: 'Gundam Base REST API Admin Page with Express.js',
+    description: 'REST API for admin page online shop with express.js, prisma and postgresql',
+    link: '',
+    github: 'https://github.com/mrizkinm/express-admin-shop'
+  },
+  {
+    image: ['/img/projects/shop-docs1.jpg', '/img/projects/shop-docs2.jpg', '/img/projects/shop-docs3.jpg'],
+    category: ['Express.js', 'Midtrans', 'Prisma', 'PostgreSQL'],
+    name: 'Gundam Base REST API Online Shop with Express.js',
+    description: 'REST API for online shop with express.js, midtrans, prisma and postgresql',
+    link: '',
+    github: 'https://github.com/mrizkinm/express-online-shop'
+  },
+  {
     image: ['/img/projects/pantaucorona.jpg'],
     category: ['Flutter'],
     name: 'Pantau Corona',
