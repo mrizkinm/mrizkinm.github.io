@@ -9,7 +9,7 @@ const project = [
     image: ['/img/projects/citycargo1.jpg', '/img/projects/citycargo2.jpg'],
     category: ['Codeigniter', 'Bootstrap'],
     name: 'City Cargo Landing Page',
-    description: 'Build landing page and registration page for City Cargo website',
+    description: 'Landing page and registration page for City Cargo website',
     link: 'https://citycargo.id',
     github: ''
   },
@@ -17,7 +17,7 @@ const project = [
     image: ['/img/projects/ccbot1.jpg', '/img/projects/ccbot2.jpg'],
     category: ['Codeigniter', 'Bootstrap'],
     name: 'City Cargo Telegram Bot App',
-    description: 'Build Telegram Bot Application for City Cargo, integrating APIs from several shipping companies such as JNT Cargo, JNT Express and Ninja Xpress into the city cargo application.',
+    description: 'Telegram Bot Application for City Cargo, integrating APIs from several shipping companies such as JNT Cargo, JNT Express and Ninja Xpress into the city cargo application.',
     link: 'https://t.me/CityCargo_bot',
     github: ''
   },
@@ -33,7 +33,7 @@ const project = [
     image: ['/img/projects/abisha1.jpg', '/img/projects/abisha2.jpg'],
     category: ['Codeigniter'],
     name: 'Abisha Business Opportunity',
-    description: 'Build landing page and registration page for Abisha Business Opportunity website',
+    description: 'Landing page and registration page for Abisha Business Opportunity website',
     link: 'https://abisha.id',
     github: ''
   },
@@ -41,7 +41,7 @@ const project = [
     image: ['/img/projects/mmsi.jpg'],
     category: ['Laravel'],
     name: 'Koperasi Maju Makmur Sejahtera Indonesia',
-    description: 'Build company profile for Koperasi Maju Makmur Sejahtera Indonesia website',
+    description: 'Company profile for Koperasi Maju Makmur Sejahtera Indonesia website',
     link: 'https://mms.id',
     github: ''
   },
@@ -49,7 +49,7 @@ const project = [
     image: ['/img/projects/adminmmsi.jpg'],
     category: ['Laravel', 'Bootstrap'],
     name: 'Koperasi Maju Makmur Sejahtera Indonesia Admin Page',
-    description: 'Build admin page for Koperasi Maju Makmur Sejahtera Indonesia',
+    description: 'Admin page for Koperasi Maju Makmur Sejahtera Indonesia',
     link: '',
     github: ''
   },
