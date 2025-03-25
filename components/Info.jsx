@@ -26,6 +26,11 @@ const Info = () => {
           </div>
         </div>
         <div className="flex justify-center items-center mt-10">
+          <Link href="https://mrizkinm.hackerresume.io/ff1b52f3-bad5-40f2-9e44-03b9fb5a585f" target="_blank" className="rounded-full cursor-pointer p-3 border border-gray-300 dark:border-accent bg-gray-50 dark:bg-accent hover:bg-gray-100 dark:hover:bg-accent">
+            View My Resume
+          </Link>
+        </div>
+        <div className="flex justify-center items-center mt-10">
           <Link href="/#about" className="rounded-full cursor-pointer p-1 border border-gray-300 dark:border-accent bg-gray-50 dark:bg-accent hover:bg-gray-100 dark:hover:bg-accent animate-bounce">
             <RiArrowDownLine className="text-3xl text-primary" />
           </Link>
