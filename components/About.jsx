@@ -31,22 +31,42 @@ const experiences = [
   {
     company: 'PT Otak Kiri Kanan',
     role: 'Web Programmer',
-    years: 'Sep 2023 - Now',
-    description: 'Develop City Cargo web and Telegram Bot App',
+    years: 'Sep 2023 - March 2025',
+    description: `City Cargo
+      - Developed the frontend using Bootstrap 5 and CodeIgniter 4, ensuring a responsive and user-friendly experience.
+      - Integrated shipping APIs (J&T Cargo, J&T Express, Ninja Xpress) for real-time tracking and seamless order processing.
+      - Designed an interactive admin dashboard and user page for managing orders, shipments and customers.
+      - Built a Telegram Bot mini app for City Cargo, providing a seamless logistics experience.
+      - Integrated automated chat responses to handle FAQs, improving customer support efficiency.
+      - Implemented real-time notifications and order updates, enhancing user engagement and service reliability.
+    `,
     type: 'Project'
   },
   {
     company: 'PT Aplikasi Info Koneksi',
     role: 'Web Programmer, Android Programmer',
-    years: 'Aug 2017 - Now',
-    description: 'Develop several web applications',
+    years: 'Aug 2017 - April 2025',
+    description: `Abisha Hotel Website
+      - Developed a company profile website for Abisha Hotel.
+      - Implemented a multi-language feature, allowing users to switch languages for a personalized experience.
+      - Designed a clean and responsive UI, ensuring accessibility across devices.
+        MMSI Cooperative Web Application
+      - Developed a cooperative management system using Laravel, streamlining financial operations.
+      - Implemented key features like balance sheet, profit & loss, journal, and savings management.
+      - Ensured a secure and scalable architecture for efficient financial tracking.
+        and others
+    `,
     type: 'Full Time'
   },
   {
     company: 'Politeknik Elektronika Negeri Surabaya',
     role: 'Web Programmer',
     years: 'Jan 2016 - May 2016',
-    description: 'Build inventory application for computer engineering laboratory',
+    description: `Computer Engireening Laboratory Inventory App
+      - Developed an inventory management system for the Computer Engineering Laboratory.
+      - Enabled efficient tracking of laboratory equipment and assets.
+      - Designed a user-friendly interface for seamless inventory management.
+    `,
     type: 'Internship'
   },
 ];
@@ -121,7 +141,7 @@ const About = () => {
                             <div className="font-semibold">{item.company}</div>
                             <div className="text-lg text-muted-foreground">{item.role} - {item.type}</div>
                             <div className="text-base font-medium">{item.years}</div>
-                            <div className="text-lg text-muted-foreground text-justify">{item.description}</div>
+                            <div className="text-lg text-muted-foreground text-justify whitespace-pre-line">{item.description}</div>
                           </div>
                         </div>
                       )
