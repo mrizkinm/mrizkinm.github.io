@@ -29,32 +29,22 @@ const info = [
 
 const experiences = [
   {
-    company: 'PT Otak Kiri Kanan',
-    role: 'Web Programmer',
-    years: 'Sep 2023 - March 2025',
-    description: `City Cargo
-      - Developed the frontend using Bootstrap 5 and CodeIgniter 4, ensuring a responsive and user-friendly experience.
-      - Integrated shipping APIs (J&T Cargo, J&T Express, Ninja Xpress) for real-time tracking and seamless order processing.
-      - Designed an interactive admin dashboard and user page for managing orders, shipments and customers.
-      - Built a Telegram Bot mini app for City Cargo, providing a seamless logistics experience.
-      - Integrated automated chat responses to handle FAQs, improving customer support efficiency.
-      - Implemented real-time notifications and order updates, enhancing user engagement and service reliability.
-    `,
-    type: 'Project'
-  },
-  {
     company: 'PT Aplikasi Info Koneksi',
     role: 'Web Programmer, Android Programmer',
-    years: 'Aug 2017 - April 2025',
-    description: `Abisha Hotel Website
-      - Developed a company profile website for Abisha Hotel.
-      - Implemented a multi-language feature, allowing users to switch languages for a personalized experience.
-      - Designed a clean and responsive UI, ensuring accessibility across devices.
+    years: 'Aug 2017 - May 2025',
+    description: `
+        City Cargo
+      - Developed responsive City Cargo web app with CodeIgniter 4 and Bootstrap 5.
+      - Integrated real-time shipment tracking via J&T, Ninja Xpress, and J&T Cargo APIs.
+      - Created interactive admin dashboards and user pages, built Telegram bot and automated FAQs to reduce support load, implemented real-time order notifications, boosting user engagement.
         MMSI Cooperative Web Application
       - Developed a cooperative management system using Laravel, streamlining financial operations.
       - Implemented key features like balance sheet, profit & loss, journal, and savings management.
-      - Ensured a secure and scalable architecture for efficient financial tracking.
-        and others
+        and other projects
+        Infrastructure & Client Engagement
+      - Set up CI/CD pipelines using GitHub Actions for automated deployment to production.
+      - Configured Apache Linux Servers.
+      - Communicated directly with clients to gather requirements, deliver demos, and provide ongoing support.
     `,
     type: 'Full Time'
   },
